@@ -1,8 +1,4 @@
 {
-    "ExampleRule": {
-        "name": "Example Virus",
-        "description": "This is an example virus for demonstration purposes."
-    },
     "EICAR_Test_File": {
         "name": "EICAR Test File",
         "description": "This is a test file to verify the functionality of antivirus software."
