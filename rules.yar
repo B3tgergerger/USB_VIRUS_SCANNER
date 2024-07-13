@@ -8,13 +8,3 @@ rule ExampleRule
     condition:
         $a or $b
 }
-
-rule EICAR_Test_File
-{
-    meta:
-        description = "This rule detects the EICAR test file"
-    strings:
-        $eicar = "EICAR-STANDARD-ANTIVIRUS-TEST-FILE"
-    condition:
-        $eicar
-}
