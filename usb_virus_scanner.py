@@ -118,11 +118,11 @@ def start_scan():
         app.update_idletasks()
 
 def get_external_drives():
-    drives = [os.path.join('/media/', drive) for drive in os.listdir('/media/') if os.path.ismount(os.path.join('/media/', drive))]
+    drives = [drive for drive in os.listdir('/media/') if os.path.ismount(os.path.join('/media/', drive))]
     return drives
 
 def save_scan_results(drive, scan_result):
-    with open(f"{drive.replace('/', '_')}_scan_results.txt", "w") as file:
+    with open(f"{drive}_scan_results.txt", "w") as file:
         file.write(scan_result)
 
 def update_virus_definitions():
