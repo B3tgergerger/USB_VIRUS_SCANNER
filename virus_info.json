@@ -1,0 +1,34 @@
+{
+    "ExampleRule": {
+        "name": "Example Virus",
+        "description": "This is an example virus for demonstration purposes."
+    },
+    "EICAR_Test_File": {
+        "name": "EICAR Test File",
+        "description": "This is a test file to verify the functionality of antivirus software."
+    },
+    "Trojan.Generic": {
+        "name": "Generic Trojan",
+        "description": "A generic detection for a Trojan horse. It might be used to download additional malicious files, steal information, or perform other malicious actions."
+    },
+    "Ransomware.Locky": {
+        "name": "Locky Ransomware",
+        "description": "A type of ransomware that encrypts files and demands a ransom to unlock them."
+    },
+    "Spyware.Keylogger": {
+        "name": "Keylogger Spyware",
+        "description": "A type of spyware that records keystrokes to capture sensitive information such as passwords and credit card numbers."
+    },
+    "Adware.Generic": {
+        "name": "Generic Adware",
+        "description": "A generic detection for adware, which displays unwanted advertisements to the user."
+    },
+    "Worm.AutoRun": {
+        "name": "AutoRun Worm",
+        "description": "A worm that spreads via removable drives by creating an autorun.inf file."
+    },
+    "Virus.Macro": {
+        "name": "Macro Virus",
+        "description": "A type of virus that uses macros to infect documents and spreadsheets."
+    }
+}
