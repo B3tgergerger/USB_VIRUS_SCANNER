@@ -21,12 +21,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run USB Virus Scanner
+    - name: Run PyInstaller
       run: |
-        python usb_virus_scanner.py
+        pyinstaller --onefile usb_virus_scanner.py
 
-    - name: Upload results
+    - name: Upload executable
       uses: actions/upload-artifact@v3
       with:
-        name: scan-results
-        path: *.txt
+        name: usb-virus-scanner
+        path: dist/usb_virus_scanner.exe
