@@ -1,0 +1,4 @@
+yara-python
+tk
+PySimpleGUI
+pyinstaller
